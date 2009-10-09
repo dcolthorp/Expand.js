@@ -16,9 +16,9 @@ Markup:
           <ul class="sublist">
             <li>
               <span style="color:red">
-      	        <b class="key">key</b>:
-      	        <span class="value">value</span>
-      	      </span>
+                <b class="key">key</b>:
+                <span class="value">value</span>
+              </span>
             </li>
           </ul>
         </li>
