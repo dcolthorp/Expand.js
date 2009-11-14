@@ -31,7 +31,7 @@ var expandTemplateInPlace = function(element, expansion) {
         element.innerHTML = expansion[propertyName];
         
       } else {
-        var pattern = (propertyName[0] == "$") ?
+        var pattern = (propertyName.charAt(0) == "$") ?
           propertyName.slice(1, propertyName.length) :
           "." + propertyName;
         var matchExpansion = expansion[propertyName];
